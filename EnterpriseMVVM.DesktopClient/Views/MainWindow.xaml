@@ -8,6 +8,6 @@
         d:DataContext="{d:DesignData ViewModels:CustomerViewModel}"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TextBox Text="{Binding CustomerName}"></TextBox>
+        <TextBox Margin="50" Text="{Binding CustomerName ,ValidatesOnDataErrors=True ,UpdateSourceTrigger=PropertyChanged}" ></TextBox>
     </Grid>
 </Window>
