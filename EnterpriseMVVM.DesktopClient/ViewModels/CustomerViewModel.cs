@@ -9,7 +9,7 @@
     /// </summary>
     public class CustomerViewModel : ViewModel
     {
-        private string customerName;
+        private string customerName = "shehrman";
 
         /// <summary>
         /// Gets or sets the customer name.
